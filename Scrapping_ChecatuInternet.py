@@ -1,3 +1,6 @@
+#### CREADO POR LUIS DIAZ #####
+#### ULT VEZ EDITADO 10/08 ####
+
 import random
 import time
 from selenium import webdriver
