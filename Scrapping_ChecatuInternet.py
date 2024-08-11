@@ -206,21 +206,3 @@ print(df_combinado)
 
 
 df_combinado.to_csv('Scrapping_checatuinternet.csv', index = False)
-
-
-
-#df = pd.DataFrame(mi_lista_final, columns=['kpis','Movistar'])
-#print(df)
-
-
-# kpi_2 = soup.find('div', {'class':'display-flex-center p-r-25'}).find('span',{'class':'mat-tooltip-trigger'}).text.strip()
-# kpi_3 = soup.find('div', {'class':'display-flex-center p-r-25'}).find('span',{'class':'mat-tooltip-trigger'}).text.strip()
-# kpi_4 = soup.find('div', {'class':'display-flex-center p-r-25'}).find('span',{'class':'mat-tooltip-trigger'}).text.strip()
-
-# print(kpi_1 +' '+ velocidad_subida_4g_mov)
-# print(kpi_1 +' '+ velocidad_subida_4g_claro)
-# print(kpi_1 +' '+ velocidad_subida_4g_entel)
-# print(kpi_1 +' '+ velocidad_subida_4g_bitel)
-# print(kpi_1 +' '+ velocidad_subida_4g_prom)
-
-
